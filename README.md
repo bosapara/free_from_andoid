@@ -1,6 +1,4 @@
-# free_from_andoid
-
-# Free from Android mod for Minetest
+# Free from Android [free_from_andoid]
 
 Mod protects your server from phone/tablet users. How it works?
 
