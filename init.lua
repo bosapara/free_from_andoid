@@ -14,7 +14,7 @@ minetest.register_on_joinplayer(function(player)
 		player:set_attribute("ffa", num)
 		local num2 = player:get_attribute("ffa")
 		
-		minetest.show_formspec(player:get_player_name(), "ffa_form", "size[6.5,5] background[1,1;1,1;gui_formbg.png;true] bgcolor[#111111aa; true] image_button[0.7,1.3;2,2;key_logo.png;OK2;] button_exit[3.45,4.25;2.9,0.5;OK1;enter] pwdfield[0.7,4.35;2.8,1;pass;;#cccccc] tooltip[OK2;Your password: "..num2..";#A500A5;white] label[3,1.9;Hover key\nto reveal password] box[0,0;6.35,0.7;#111111] label[0.3,0.15;"..minetest.colorize("#777777","Server available for PC users only").."]")
+		minetest.show_formspec(player:get_player_name(), "ffa_form", "size[6.5,5] background[1,1;1,1;gui_formbg.png;true] bgcolor[#111111aa; true] image_button[0.7,1.3;2,2;key_logo.png;OK2;] button_exit[3.45,4.25;2.9,0.5;OK1;enter] pwdfield[0.7,4.35;2.8,1;pass;;#cccccc] tooltip[OK2;Your password: "..num2..";#A500A5;white] label[3,1.9;Hover key\nto reveal password] box[0,0;6.35,0.7;#111111] label[0.3,0.15;"..minetest.colorize("#777777","Server is available for PC users only").."]")
 		
 
 		
