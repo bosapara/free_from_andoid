@@ -10,5 +10,5 @@ Each visit the player must enter personal unique password which located in key i
 3. Player enter wrong password or close formspec -> mod kick the player
 
 
-![Screenshot](https://i.ibb.co/y89qXyz/ezgif-1-86d3d6c8ba4b.gif)
+![Screenshot](https://i.ibb.co/h7kbxPF/ezgif-4-64dcff0a2c2c.gif)
 ![Screenshot](https://i.ibb.co/wKZXMyn/prev-1.png)
