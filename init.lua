@@ -40,14 +40,14 @@ minetest.register_on_player_receive_fields(function(player, formname, fields)
 				minetest.chat_send_player(name, (minetest.colorize("#61FF00","Congrats, now you can play, "..name.."!")))
 				
 			elseif fields.pass == "" then
-				minetest.kick_player(name, "You did'nt enter the password, try to join again!")
+				minetest.kick_player(name, "You didn't enter the password, try to join again!")
 			elseif fields.pass ~= number then
 				minetest.kick_player(name, "Your password is wrong, try to join again!")
 				
 			end	
 
 		elseif fields.quit == "true" then
-				minetest.kick_player(name, "You did'nt enter the password, try to join again!")	
+				minetest.kick_player(name, "You didn't enter the password, try to join again!")	
 		end
 		
 	end
