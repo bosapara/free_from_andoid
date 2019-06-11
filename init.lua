@@ -25,12 +25,13 @@ end)
 minetest.register_on_player_receive_fields(function(player, formname, fields)
 	if formname == "ffa_form" then
 
+		local name = player:get_player_name()
+
 		if fields.pass then
 			
 			local number = player:get_attribute("ffa")	
 			if fields.pass == number then
 	
-				local name = player:get_player_name()
 				local privs = minetest.get_player_privs(name)
 				privs.interact = true
 				privs.shout = true
