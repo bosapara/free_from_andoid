@@ -17,7 +17,7 @@ Tested with:
 
 ![Screenshot](https://i.ibb.co/10M7jsP/4-16.png)
 ![Screenshot](https://i.ibb.co/pz4KMVG/4-17.png)
-![Screenshot](https://i.ibb.co/rbvSM6c/5-0.png
+![Screenshot](https://i.ibb.co/rbvSM6c/5-0.png)
 
 
 ---------------------------------------------------------------------
